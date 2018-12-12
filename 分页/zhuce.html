@@ -1,0 +1,163 @@
+﻿<!doctype html>
+<html>
+<head>
+<meta charset="gb2312">
+<title>用户注册</title>
+</head>
+<body background="images/zhuce.jpg">
+<style type="text/css">
+.wrap_top{
+  width:100%;
+  height:25px;
+}
+.top{
+  width:500px;
+  margin:auto;
+}
+#navMenu {
+  width:1000px;
+  height:25px;
+  line-height:20px;
+  display:block;
+  overflow:hidden;
+  float:left;
+  margin-top:3px;
+  margin-left: -220px;
+ 
+}
+.menu1,.menu1 ul {
+  padding:0px;
+  margin:0px;
+  list-style-type: none;
+}
+.menu1 li{
+  height:20px;
+  line-height:34px;
+  float:left;
+  padding:0px;
+  margin: 0px;
+}
+.menu1 a{
+  display: block;
+  font-size:14px;
+  margin:0px;
+    width:93px;
+  color:#fff;
+  font-weight:bold;
+  text-align:center;
+}
+.menu1 a:hover {
+  color:#ffff15;
+}
+</style>
+</head>
+<body>
+<br/>
+  <div class="wrap_top">
+      <div class="top">
+             <div id="navMenu">
+                <ul class="menu1">
+                    <li><a href="../尧都平阳.html">网站首页</a></li>
+                    <li><a href="jianjie.html">临汾简介</a></li> 
+                    <li><a href="fengtu.html">风土人情</a></li>
+                    <li><a href="meijing.html">美景追寻</a></li>  
+                    <li><a href="xiaochi.html">吃在临汾</a></li>
+                    <li><a href="youji.html">游记精选</a></li>
+                    <li><a href="sheying.html">摄影摄像</a></li>
+                    <li><a href="zhusu.html">住宿休息</a></li>
+                    <li><a href="zhuce.html">用户注册</a></li>
+                    <li><a href="women.html">联系我们</a></li>
+                </ul>
+      </div>
+        </div>
+   </div>    
+   <br/>  
+<form action="" method="post" name="form1">
+  <h2 align="center">用户注册</h2>
+  <table width="500" border="1"bordercolor="white" align="center" cellpadding="3" cellspacing="2" >
+    <tr>
+      <td width="100" height="20" align="right">用户名</td>
+      <td width="400" height="20" align="left">
+        <input type="text" name="username"  id="username" size="12" maxlength="12" /> *
+      </td>
+    </tr>
+    <tr>
+      <td width="100" height="20" align="right">密码</td>
+      <td width="400" height="20" align="left">
+        <input type="password "name="pass"  id="pass" size="12" maxlength="12" /> *
+      </td>
+    </tr>
+    <tr>
+      <td width="100" height="20" align="right">确认密码</td>
+      <td width="400" height="20" align="left">
+        <input type="password "name="pass" id="pass" size="12" maxlength="12" /> *
+      </td>
+    </tr>
+    <tr>
+      <td width="100" height="20" align="right">性别</td>
+      <td width="400" height="20" align="left">  
+          <input type="radio" name="sex" value="男" checked /> 男
+          <input type="radio" name="sex" value="女" /> 女
+      </td>
+    </tr>
+    <tr>
+      <td width="100" height="20" align="right">出生日期</td>
+      <td width="400" height="20" align="left">
+        <input type="text" name="date" id="date" size="30" />
+      </td>
+    </tr>
+    <tr>
+      <td width="100" height="20" align="right">联系电话</td>
+      <td width="400" height="20" align="left">
+        <input type="text" name="phone" id="phone" size="13" maxlength="13" />
+      </label></td>
+    </tr>
+    <tr>
+      <td width="100" height="20" align="right">电子邮件</td>
+      <td width="400" height="20" align="left">
+        <input type="text" name="email" id="email" size="30" maxlength="30" /> *
+      </td>
+    </tr>
+    <tr>
+      <td width="100" height="20" align="right">旅游爱好</td>
+      <td width="400" height="20" align="left">
+          <input type="radio" name="love" value="玩乐" /> 玩乐
+          <input type="radio" name="love" value="风景"/> 风景
+          <input type="radio" name="love" value="名胜"  checked/> 名胜
+      </td>
+    </tr>
+    <tr>
+      <td width="100" height="20" align="right">职业</td>
+      <td width="400" height="20" align="left">
+        <select name="work">
+          <option value="学生">学生</option>
+          <option value="教师" selected>教师</option>
+          <option value="医生">医生</option>
+        </select>
+      </td>
+    </tr>
+    <tr>
+      <td width="100" height="20" align="right">爱好</td>
+      <td width="400" height="20" align="left">
+        <input type="checkbox" name="like" value="上网" /> 上网
+        <input type="checkbox" name="like" value="篮球" checked/> 篮球
+        <input type="checkbox" name="like" value="听歌" /> 听歌
+        <input type="checkbox" name="like" value="下棋" checked/> 下棋
+      </td>
+    </tr>
+    <tr>
+      <td width="100" height="20" align="right">留言</td>
+      <td width="400" height="20" align="left">
+        <textarea name="talk" cols="50" rows="5">请输入您的留言信息...</textarea>
+      </td>
+    </tr>
+    <tr>
+      <td height="20" colspan="2">　　　　　　　　　　　　　
+         <input type="submit" name="Submit" value="提交" />　
+        <input type="reset" name="Submit2" value="重写" />
+      </td>
+    </tr>
+  </table>
+</form>
+</body>
+</html>

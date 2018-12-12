@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <title>吃在临汾</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+    <script src='http://www.5iweb.com.cn/statics/js/jquery.1.7.1.min.js'></script>
+    <style>
+		body{background-color:white}
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        .container{
+            max-width: 850px;
+            margin: 0 auto;
+        }
+
+
+        .top1{
+             width: 100%;
+             height: 100px;
+             background-color:#fff;
+        }
+        .slide{
+            width: 100%;
+            min-height: 180px;
+            overflow: hidden;
+            position: relative;
+  
+        }
+        .slide .img{
+            overflow: hidden;
+            position: absolute;
+            transition: width 0.4s,height 0.4s,top 0.4s,left 0.4s,z-index 0.4s;
+        }
+        .slide .img img{
+            width: calc(100% - 14px);
+            height: calc(100% - 14px);
+            margin: 7px;
+        }
+        .slide .img1{
+            width: 40%;
+            height: 40%;
+            top: 30%;
+            left: -50%;
+            z-index: 1;
+        }
+        .slide .img2{
+            width: 60%;
+            height: 60%;
+            top: 20%;
+            left: -20%;
+            z-index: 2;
+        }
+        .slide .img3{
+            width: 80%;
+            height: 80%;
+            top: 10%;
+            left: 10%;
+            z-index: 3;
+        }
+        .slide .img4{
+            width: 60%;
+            height: 60%;
+            top: 20%;
+            left: 60%;
+            z-index: 2;
+        }
+        .slide .img5{
+            width: 40%;
+            height: 40%;
+            top: 30%;
+            left: 110%;
+            z-index: 1;
+        }
+        .slide-bt{
+            position: absolute;
+            left: 50%;
+            bottom: 13%;
+            z-index: 10;
+        }
+        .slide-bt span{
+            width: 24px;
+            height: 8px;
+            background: #c9caca;
+            float: left;
+            margin: 5px;
+            border-radius: 4px;
+        }
+        .slide .slide-bt .on{
+            background: #ffd200;
+        }
+        .bottom{
+            width: 100%;
+            height: 35px;
+            bottom:0px;
+            background: ;
+        }
+
+    </style>
+</head>
+<body>
+<style type="text/css">
+.wrap_top{
+  width:100%;
+  height:25px;
+}
+.top{
+  width:500px;
+  margin:auto;
+}
+#navMenu {
+  width:1000px;
+  height:25px;
+  line-height:20px;
+  display:block;
+  overflow:hidden;
+  float:left;
+  margin-top:3px;
+  margin-left: -220px;
+ 
+}
+.menu1,.menu1 ul {
+  padding:0px;
+  margin:0px;
+  list-style-type: none;
+}
+.menu1 li{
+  height:20px;
+  line-height:34px;
+  float:left;
+  padding:0px;
+  margin: 0px;
+}
+.menu1 a{
+  display: block;
+  font-size:14px;
+  margin:0px;
+    width:93px;
+  color:#fff;
+  font-weight:bold;
+  text-align:center;
+}
+.menu1 a:hover {
+  color:#ffff15;
+}
+</style>
+</head>
+<body background="images/chi.jpg">
+<br/>
+  <div class="wrap_top">
+      <div class="top">
+             <div id="navMenu">
+                <ul class="menu1">
+                    <li><a href="../尧都平阳.html">网站首页</a></li>
+                    <li><a href="jianjie.html">临汾简介</a></li> 
+                    <li><a href="fengtu.html">风土人情</a></li>
+                    <li><a href="meijing.html">美景追寻</a></li>  
+                    <li><a href="xiaochi.html">吃在临汾</a></li>
+                    <li><a href="youji.html">游记精选</a></li>
+                    <li><a href="sheying.html">摄影摄像</a></li>
+                    <li><a href="zhusu.html">住宿休息</a></li>
+                    <li><a href="zhuce.html">用户注册</a></li>
+                    <li><a href="women.html">联系我们</a></li>
+                </ul>
+      </div>
+        </div>
+   </div>    
+   <br/>  
+<div class="container">
+<div class="top1"><img src="images/top.jpg"/></div>
+    <div id="slide" class="slide" class="index-slide" alt="star">
+    <hr color="gray">
+        <!-- 轮播图片数量可自行增减 -->
+        <div class="img"><a href="隰县羊汤.html"><img src="images/羊汤1.jpg"alt="隰县羊汤"title="隰县羊汤"/></div>
+        <div class="img"><a href="曲沃饸饹面.html"><img src="images/饸饹面.jpg"alt="曲沃饸饹面"title="曲沃饸饹面"/></div>
+        <div class="img"><a href="牛肉丸子面.html"><img src="images/牛肉丸子面.jpg"alt="牛肉丸子面"title="牛肉丸子面"/></div>
+        <div class="img"><a href="霍州年馍.html"><img src="images/2222.jpg"alt="霍州年馍"title="霍州年馍"/></div>
+        
+        <div class="slide-bt"></div>
+    </div>
+   
+     <div class="bottom"> <p align="center" style="color:black;font-size=40pt"font-face="楷体">
+ <marquee behavior="scroll" height="20" width="700" scrollamount="6">
+临汾当地的餐饮以面食为主，油炸食物、杂粮细做是当地的特色。当地特色小吃有丸子面、烧麦、元宵、羊杂烩、猪血灌肠等，一般在路边的小吃摊上就可以尝到。
+</p>
+</marquee> </div>
+    </div>
+   
+    
+
+<div style="width: 100%; height: auto; line-height: 25px; text-align: center;"></div>	
+<script>
+var autoLb = true;          //autoLb=true为开启自动轮播
+var autoLbtime = 2;         //autoLbtime为轮播间隔时间（单位秒）
+var touch = true;           //touch=true为开启触摸滑动
+var slideBt = true;         //slideBt=true为开启滚动按钮
+
+
+var slideNub;               //轮播图片数量
+
+//窗口大小改变时改变轮播图宽高
+$(window).resize(function(){
+   $(".slide").height($(".slide").width()*0.56);
+});
+
+
+$(function(){
+    $(".slide").height($(".slide").width()*0.56);
+    slideNub = $(".slide .img").size();             //获取轮播图片数量
+    for(i=0;i<slideNub;i++){
+        $(".slide .img:eq("+i+")").attr("data-slide-imgId",i);
+    }
+
+
+    //根据轮播图片数量设定图片位置对应的class
+    if(slideNub==1){
+        for(i=0;i<slideNub;i++){
+            $(".slide .img:eq("+i+")").addClass("img3");
+        }
+    }
+    if(slideNub==2){
+        for(i=0;i<slideNub;i++){
+            $(".slide .img:eq("+i+")").addClass("img"+(i+3));
+        }
+    }
+    if(slideNub==3){
+        for(i=0;i<slideNub;i++){
+            $(".slide .img:eq("+i+")").addClass("img"+(i+2));
+        }
+    }
+    if(slideNub>3&&slideNub<6){
+        for(i=0;i<slideNub;i++){
+            $(".slide .img:eq("+i+")").addClass("img"+(i+1));
+        }
+    }
+    if(slideNub>=6){
+        for(i=0;i<slideNub;i++){
+            if(i<5){
+               $(".slide .img:eq("+i+")").addClass("img"+(i+1)); 
+            }else{
+                $(".slide .img:eq("+i+")").addClass("img5"); 
+            }
+        }
+    }
+
+
+    //根据轮播图片数量设定轮播图按钮数量
+    if(slideBt){
+        for(i=1;i<=slideNub;i++){
+            $(".slide-bt").append("<span data-slide-bt='"+i+"' onclick='tz("+i+")'></span>");
+        }
+        $(".slide-bt").width(slideNub*34);
+        $(".slide-bt").css("margin-left","-"+slideNub*17+"px");
+    }
+
+
+    //自动轮播
+    if(autoLb){
+        setInterval(function(){
+        right();
+    }, autoLbtime*1000);
+    }
+
+
+    if(touch){
+        k_touch();
+    }
+    slideLi();
+    imgClickFy();
+})
+
+
+//右滑动
+function right(){
+    var fy = new Array();
+    for(i=0;i<slideNub;i++){
+        fy[i]=$(".slide .img[data-slide-imgId="+i+"]").attr("class");
+    }
+    for(i=0;i<slideNub;i++){
+        if(i==0){
+            $(".slide .img[data-slide-imgId="+i+"]").attr("class",fy[slideNub-1]);
+        }else{
+           $(".slide .img[data-slide-imgId="+i+"]").attr("class",fy[i-1]); 
+        }
+    }
+    imgClickFy();
+    slideLi();
+}
+
+
+//左滑动
+function left(){
+    var fy = new Array();
+    for(i=0;i<slideNub;i++){
+        fy[i]=$(".slide .img[data-slide-imgId="+i+"]").attr("class");
+    }
+    for(i=0;i<slideNub;i++){
+        if(i==(slideNub-1)){
+            $(".slide .img[data-slide-imgId="+i+"]").attr("class",fy[0]);
+        }else{
+           $(".slide .img[data-slide-imgId="+i+"]").attr("class",fy[i+1]); 
+        }
+    }
+    imgClickFy();
+    slideLi();
+}
+
+
+//轮播图片左右图片点击翻页
+function imgClickFy(){
+    $(".slide .img").removeAttr("onclick");
+    $(".slide .img2").attr("onclick","left()");
+    $(".slide .img4").attr("onclick","right()");
+}
+
+
+//修改当前最中间图片对应按钮选中状态
+function slideLi(){
+    var slideList = parseInt($(".slide .img3").attr("data-slide-imgId")) + 1;
+    $(".slide-bt span").removeClass("on");
+    $(".slide-bt span[data-slide-bt="+slideList+"]").addClass("on");
+}
+
+
+//轮播按钮点击翻页
+function tz(id){
+    var tzcs = id - (parseInt($(".slide .img3").attr("data-slide-imgId")) + 1);
+    if(tzcs>0){
+        for(i=0;i<tzcs;i++){
+            setTimeout(function(){
+              right();  
+            },1);
+        }
+    }
+    if(tzcs<0){
+        tzcs=(-tzcs);
+        for(i=0;i<tzcs;i++){
+            setTimeout(function(){
+              left();  
+            },1);
+        }
+    }
+    slideLi();
+}
+
+
+//触摸滑动模块
+function k_touch() {
+    var _start = 0, _end = 0, _content = document.getElementById("slide");
+    _content.addEventListener("touchstart", touchStart, false);
+    _content.addEventListener("touchmove", touchMove, false);
+    _content.addEventListener("touchend", touchEnd, false);
+    function touchStart(event) {
+        var touch = event.targetTouches[0];
+        _start = touch.pageX;
+    }
+    function touchMove(event) {
+        var touch = event.targetTouches[0];
+        _end = (_start - touch.pageX);
+    }
+
+    function touchEnd(event) {
+        if (_end < -100) {
+            left();
+            _end=0;
+        }else if(_end > 100){
+            right();
+            _end=0;
+        }
+    }
+}
+
+</script>
+
+</body>
+</html>
